@@ -33,7 +33,7 @@ const ContactBody = () => {
             <br />
             <textarea name="message" id="message" cols="30" rows="10" placeholder='How can we help you ? '></textarea>
         </div>
-        <Button height={"3.5rem"} width={"12rem"} borderRadius={"0.5rem"} fontColor={"#FFF"} backgroundColor={"#ffa949"} padding={"0.6rem 1rem"} fontSize={"1.3rem"} fontWeight={"600"} >Submit Message</Button>
+        <Button height={"3rem"} width={"12rem"} borderRadius={"0.5rem"} fontColor={"#FFF"} backgroundColor={"#ffa949"} padding={"0.6rem 1rem"} fontSize={"1.3rem"} fontWeight={"600"} >Submit Message</Button>
         </div>
         
     </div>

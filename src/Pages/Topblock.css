@@ -28,8 +28,8 @@
 }
 
 .topblock h1{
-    font-size: 3.5rem;
-    font-weight: 750;  
+    font-size: 3rem;
+    font-weight: 700;  
 }
 .path{
     margin-left: 1.5rem;
@@ -45,5 +45,5 @@
     height: 4vw;
     position: absolute;
     top: auto;
-    margin-top: 2rem;
+    margin-top: -2.75rem;
 }

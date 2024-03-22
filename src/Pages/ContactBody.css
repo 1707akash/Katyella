@@ -6,13 +6,13 @@
 }
 .formBody{
     width: 40%;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin: auto;
+    margin: 2rem auto;
     border-radius: 1.5rem;
     box-shadow: -1px -1px 10px -9px rgba(0,0,0,0.65);
     gap: 2rem;
