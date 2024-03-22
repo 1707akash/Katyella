@@ -28,14 +28,14 @@
     gap: 0.5rem;
 }
 .personPic{
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
 }
 
 .personName{
     color: #777777;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     font-family: cursive;
     font-style: italic;

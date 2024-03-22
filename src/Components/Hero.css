@@ -3,7 +3,7 @@
 .hero{
     font-family: Roboto, sans-serif;
     background-color: #574b8a;
-    height: 110vh;
+    height: 120vh;
     width: 100%;
     max-width: 100%;
     color: white;
@@ -12,7 +12,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    padding: 10rem 5rem 0 5rem;
+    padding: 10rem 5rem 0 2rem;
     flex-shrink: 1;
     margin: 0rem 3rem;
 }
@@ -24,7 +24,7 @@
     position: relative;
     width: 50%;
     padding: 1rem 0 1rem 1rem;
-    margin: 8rem 0 0 5rem;
+    margin: 6rem 0 0 5rem;
 }
 
 .innerLeft{
@@ -47,14 +47,14 @@
     letter-spacing: 2px;
   }
   .innerLeft h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 3.75rem;
     margin: 1.5rem 0;
   }
   .innerLeft p{
-    font-size: 1.3rem;
-    line-height: 2.2rem;
+    font-size: 1.15rem;
+    line-height: 2rem;
   }
   .underlined{
     text-decoration: underline;
@@ -96,7 +96,7 @@
   height: 5vw;
   position: absolute;
   top: auto;
-  bottom: -6rem;
+  bottom: -9.5rem;
   left: 0%;
   right: 0%;
 }

@@ -19,9 +19,9 @@ const Hero = () => {
                 <p className="underlined">One Month Money Back Guarantee!</p>
 
                 <div className="btnBox">
-                <Button height={"3.5rem"} width={"16rem"} borderRadius={"0.5rem"} fontColor={"#FFF"} backgroundColor={"#ffa949"} padding={"0.6rem 1rem"} fontSize={"1.3rem"} fontWeight={"600"} >Schedule an Intro Call</Button>
+                <Button height={"3rem"} width={"15rem"} borderRadius={"0.5rem"} fontColor={"#FFF"} backgroundColor={"#ffa949"} padding={"0.6rem 1rem"} fontSize={"1.3rem"} fontWeight={"600"} >Schedule an Intro Call</Button>
 
-                <Button height={"3.5rem"} width={"10rem"} borderRadius={"0.5rem"} fontColor={"#574b8a"} backgroundColor={"#fff"} padding={"0.6rem 1rem"} fontSize={"1.3rem"} fontWeight={"600"} >Learn</Button>
+                <Button height={"3rem"} width={"10rem"} borderRadius={"0.5rem"} fontColor={"#574b8a"} backgroundColor={"#fff"} padding={"0.6rem 1rem"} fontSize={"1.3rem"} fontWeight={"600"} >Learn</Button>
                 </div>
             </div> 
             </div>

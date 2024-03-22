@@ -41,22 +41,22 @@ const Learn = () => {
     <div className="sliderCards">
     <Slider {...settings} className="slider">
     <CourseCards source={Rewrite} timestamp = {"MAY 2, 2023 IN SPRING"} tagline={'Simplify Spring Boot Version Migration with OpenRewrite'} picsrc={Person} personName={"Matthew Wojtowicz"}
-       divheight={"32rem"} divWidth={"37rem"} fontSize={"1.8rem"} fontWeight={'550'} imageHeight={"15rem"} imageWidth={"100%"} />
+       divheight={"30rem"} divWidth={"30rem"} fontSize={"1.6rem"} fontWeight={'550'} imageHeight={"14rem"} imageWidth={"100%"} />
 
       <CourseCards source={Dog} timestamp = {"MAY 11, 2023 IN"} tagline={'Three Tools To Keep Your Dependencies Up To Date In A SpringBoot Project'} picsrc={Person} personName={"Matthew Wojtowicz"}
-       divheight={"32rem"} divWidth={"37rem"} fontSize={"1.8rem"} fontWeight={'550'} imageHeight={"15rem"} imageWidth={"100%"} />
+       divheight={"30rem"} divWidth={"30rem"} fontSize={"1.6rem"} fontWeight={'550'} imageHeight={"14rem"} imageWidth={"100%"} />
 
       <CourseCards source={Algebra} timestamp = {"MAY 1, 2023 IN JAVA"} tagline={'Java 8 To 18: Most Important Changes In The Java Platform'} picsrc={Person} personName={"Matthew Wojtowicz"}
-       divheight={"32rem"} divWidth={"37rem"} fontSize={"1.8rem"} fontWeight={'550'} imageHeight={"15rem"} imageWidth={"100%"} />
+       divheight={"30rem"} divWidth={"30rem"} fontSize={"1.6rem"} fontWeight={'550'} imageHeight={"14rem"} imageWidth={"100%"} />
 
       <CourseCards source={Manifold} timestamp = {"MAY 2, 2023 IN SPRING"} tagline={'Is This The Future Of Java?'} picsrc={Person} personName={"Matthew Wojtowicz"}
-       divheight={"32rem"} divWidth={"37rem"} fontSize={"1.8rem"} fontWeight={'550'} imageHeight={"15rem"} imageWidth={"100%"} />
+       divheight={"30rem"} divWidth={"30rem"} fontSize={"1.6rem"} fontWeight={'550'} imageHeight={"14rem"} imageWidth={"100%"} />
 
       <CourseCards source={Plug} timestamp = {"MAY 2, 2023 IN SPRING"} tagline={'Providing A GraphQL Endpoint In Spring Boot'} picsrc={Person} personName={"Matthew Wojtowicz"}
-       divheight={"32rem"} divWidth={"37rem"} fontSize={"1.8rem"} fontWeight={'550'} imageHeight={"15rem"} imageWidth={"100%"} />
+       divheight={"30rem"} divWidth={"30rem"} fontSize={"1.6rem"} fontWeight={'550'} imageHeight={"14rem"} imageWidth={"100%"} />
 
       <CourseCards source={Green} timestamp = {"MAY 2, 2023 IN SPRING"} tagline={'Spring Boot And Spring Batch: Creating A Job Runner For Database Exports'} picsrc={Person} personName={"Matthew Wojtowicz"}
-       divheight={"32rem"} divWidth={"37rem"} fontSize={"1.8rem"} fontWeight={'550'} imageHeight={"15rem"} imageWidth={"100%"} />
+       divheight={"30rem"} divWidth={"30rem"} fontSize={"1.6rem"} fontWeight={'550'} imageHeight={"14rem"} imageWidth={"100%"} />
     </Slider>
 
 
