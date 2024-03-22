@@ -48,7 +48,7 @@ const Process =()=>{
             </div>
 
             <div className='btnBox'>
-            <Button height={"2rem"} width={"12rem"} borderRadius={"0.5rem"} fontColor={"#FFF"} backgroundColor={"#ffa949"} padding={"0rem 1rem"} fontSize={"1.3rem"} fontWeight={"600"} >OUR PROCESS</Button>
+            <Button height={"1.85rem"} width={"11rem"} borderRadius={"0.5rem"} fontColor={"#FFF"} backgroundColor={"#ffa949"} padding={"0rem 1rem"} fontSize={"1.3rem"} fontWeight={"600"} >OUR PROCESS</Button>
             </div>
 
             <div className="processCards">

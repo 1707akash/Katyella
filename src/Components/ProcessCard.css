@@ -16,17 +16,17 @@
 } */
 
 .processCardDiv img{
-    height: 7rem;
-    width: 9rem;
+    height: 6rem;
+    width: 7.75rem;
 }
 .processCardDiv h3{
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
 }
 
 .processCardDiv p{
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
     color: #666;
 }

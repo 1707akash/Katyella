@@ -10,20 +10,20 @@
 }
 
 .personCards img{
-    height: 6rem;
-    width: 6rem;
+    height: 5rem;
+    width: 5rem;
     border-radius: 50%;
     border: 2px solid white;
 }
 .personCards h3{
     font-family:cursive;
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-style: italic;
-    margin: 1rem 0;
+    margin: 0.8rem 0;
 }
 .personCards p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 1.3rem;
     text-align: center;
 }
