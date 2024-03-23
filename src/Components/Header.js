@@ -5,6 +5,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import LogoImg from '../LogoImg.png';
 import './Header.css';
 import Button from './Button';
+import { Link } from 'react-router-dom';
 
 const Header =()=>{
     return(
@@ -16,11 +17,11 @@ const Header =()=>{
             </div>
             <div className="linklists">
                 <ul>
-                    <li><a href="http://localhost:3000/">Home</a></li>
-                    <li><a href="http://localhost:3000/articles">Articles</a></li>
-                    <li><a href="http://localhost:3000/services">Services</a></li>
-                    <li><a href="http://localhost:3000/contact">Contact</a></li>
-                    <li><a href="">Ebook</a></li>
+                    <li> <Link to={"/"} >Home</Link> </li>
+                    <li><Link to={"/articles"} >Articles</Link></li>
+                    <li><Link to={"/services"}>Services</Link></li>
+                    <li><Link to={"/contact"}>Contact</Link></li>
+                    <li><Link>Ebook</Link></li>
                 </ul>
             </div>
         </div>
