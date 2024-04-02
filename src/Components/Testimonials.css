@@ -1,5 +1,3 @@
-
-
 .testimonials{
     background-color:#574b8a;
     width: 100%;
@@ -23,6 +21,7 @@
     line-height: 2.5rem;
 }
 
+
 .cardsDiv{
     width: 80%;
     margin: auto;
@@ -38,4 +37,15 @@
 .slick-arrow{
     height: 2rem;
     width: 2rem;
+}
+@media screen and (min-width:1000px) and (max-width:1250px) {
+    .testimonials h1{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+}
+@media screen and (max-width:1400px){
+    .bottomImg{
+        display: none;
+    }
 }

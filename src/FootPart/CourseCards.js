@@ -17,10 +17,10 @@ const CourseCards = (props) => {
         width: props.imageWidth
     }}
 
-     src= {props.source} alt="course" />
+     src= {props.source} alt="course" className='courseImg' />
     <span className="time">{props.timestamp}</span>
 
-    <h3 style={{fontSize:props.fontSize,
+    <h3 className='courseHeader' style={{fontSize:props.fontSize,
     fontWeight:props.fontWeight
     }}>{props.tagline}</h3>
 

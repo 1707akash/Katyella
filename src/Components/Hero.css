@@ -16,9 +16,6 @@
     flex-shrink: 1;
     margin: 0rem 3rem;
 }
-
-
-
   /* ....Here is the image div of hero section ...... */
 .leftHero{
     position: relative;
@@ -41,6 +38,8 @@
       transform: translateX(0);
     }
   }
+
+ 
   .innerLeft h4{
     font-weight: 500;
     font-size: 0.85rem;
@@ -89,17 +88,58 @@
         transform: scale(1.0);
     }
 }
-
 .bottomDsn{
-  z-index: 1;
+  z-index: 5;
   width: 100vw;
   height: 5vw;
-  position: absolute;
+  margin-top: 5rem;
+  /* position: absolute;
   top: auto;
-  bottom: -9.5rem;
-  left: 0%;
-  right: 0%;
+  bottom: -9.5rem; */
+  /* left: 0%;
+  right: 0%; */
 }
+
+@media only screen and (max-width:1150px){
+  .hero{
+    height: 235vh;
+    padding-top: 15rem;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-shrink: 1;
+  }
+  .leftHero{
+    width: 90%;
+    margin: auto;
+  }
+  .innerLeft h1{
+    font-size: 2.5rem;
+  }
+  .innerLeft > p >br{
+    display: none;
+  }
+  .RightHero{
+    width: 75%;
+    margin: auto;
+  }
+  
+}
+@media only screen and (max-width:1400px){
+  .bottomDsn{
+    display: none;
+  }
+}
+@media only screen and (min-width:1150px) and (max-width:1400px){
+  .innerLeft h1{
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+}
+
+
 
 
 

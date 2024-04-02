@@ -1,5 +1,4 @@
 
-
 .processCardDiv{
     display: flex;
     flex-direction: column;
@@ -29,4 +28,16 @@
     font-size: 1rem;
     line-height: 1.6rem;
     color: #666;
+}
+@media screen and (max-width:1050px){
+    .processCardDiv{
+        width: 40%;
+        height: 480px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        padding: auto 0;
+        
+    }
 }

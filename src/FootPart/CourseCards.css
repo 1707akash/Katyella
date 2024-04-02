@@ -8,10 +8,16 @@
     box-shadow: -6px 4px 45px -29px rgba(0,0,0,0.65);
     margin: 1.5rem;
     transition: 0.7s;
+    height:30rem;
+    width: 30rem;
 }
 .courseCards:hover{
     /* animation: anim 1s ease; */
     transform: translateY(-1rem);
+}
+.courseImg{
+    height: 14rem;
+    width: 100%;
 }
 
 .courseCards{
@@ -19,6 +25,9 @@
 }
 .time{
     color: #555555;
+}
+.courseHeader{
+    font-size: 1.6rem;
 }
 
 .picDiv{
@@ -39,4 +48,34 @@
     font-weight: 500;
     font-family: cursive;
     font-style: italic;
+}
+
+@media screen and (min-width:1100px) and (max-width:1400px) {
+    .courseCards{
+        height:25rem;
+        width: 24rem;
+    }
+    .courseImg{
+        height: 10rem;
+        width: 100%;
+    }
+    .courseHeader{
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .courseCards{
+        height:22rem;
+        width: 20rem;
+    }
+    .courseImg{
+        height: 8.5rem;
+        width: 100%;
+    }
+    .courseHeader{
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
 }
